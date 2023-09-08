@@ -1,30 +1,30 @@
 <h1> FOREX TOOLKIT </h1>
-The Forex Toolkit (FTX) APP aims to provide various functionalities related to currency conversion, currency analysis, and currency forecasting. 
+The Forex Toolkit (FTK) APP aims to provide various functionalities related to currency conversion, currency analysis, and currency forecasting. 
 The APP utilises the following steps to determine the “best investment outlook” for its user:
 <br><br>
 <b>- Currency Data Retrieval:</b> <br>
-FTX retrieves currency data using the ExchangeRate-API to obtain the latest currency conversion rates.
+FTK retrieves currency data using the ExchangeRate-API to obtain the latest currency conversion rates.
 <br><br>
 <b>- Currency Conversion:</b> <br>
-FTX allows users to convert an amount from one currency to another using the retrieved currency conversion rates.
+FTK allows users to convert an amount from one currency to another using the retrieved currency conversion rates.
 <br><br>
 <b>- Currency Map Visualisation:</b> <br>
-FTX visualises the currencies on a map using the Folium library. The map displays markers for each currency, representing its location based on country coordinates.
+FTK visualises the currencies on a map using the Folium library. The map displays markers for each currency, representing its location based on country coordinates.
 <br><br>
 <b>- Currency Analysis and Forecasting:</b> <br>
-FTX performs currency analysis and forecasting using the machine learning models XGBoost and Random Forest. It trains the models on historical currency data and generates predicted prices for future dates. FTX also calculates the root mean squared error (RMSE) as an evaluation metric for the models.
+FTK performs currency analysis and forecasting using the machine learning models XGBoost and Random Forest. It trains the models on historical currency data and generates predicted prices for future dates. FTK also calculates the root mean squared error (RMSE) as an evaluation metric for the models.
 <br><br>
 <b>- Buy/Sell Signals:</b> <br>
-FTX provides buy/sell signals based on the predicted prices compared to historical prices. It generates signals for each currency and plots the forecast results.
+FTK provides buy/sell signals based on the predicted prices compared to historical prices. It generates signals for each currency and plots the forecast results.
 <br><br>
 <b>- Best Investment Outlook:</b> <br>
-FTX determines the currency with the most buy signals, the currency with the highest cumulative percentage change to USD, and the currency with the best investment outlook based on a combined score considering buy signals and cumulative change. 
+FTK determines the currency with the most buy signals, the currency with the highest cumulative percentage change to USD, and the currency with the best investment outlook based on a combined score considering buy signals and cumulative change. 
 <br><br>
 <b>- Unique Algorithm:</b> <br>
-The process to generating the currency with the best investment outlook, is an algorithm unique to FTX. 
+The process to generating the currency with the best investment outlook, is an algorithm unique to FTK. 
 <br><br>
 <b>- Chatbot Interface:</b> <br>
-Finally, FTX includes a chatbot interface powered by OpenAI's text-based language model. Users can interact with the chatbot to ask questions or seek any further assistance regarding currency-related topics.
+Finally, FTK includes a chatbot interface powered by OpenAI's text-based language model. Users can interact with the chatbot to ask questions or seek any further assistance regarding currency-related topics.
 
 ## Before you run the application
  - You will download the ipynb file:
@@ -66,5 +66,5 @@ Finally, FTX includes a chatbot interface powered by OpenAI's text-based languag
 
 
 ## Conclusion
-The Forex Toolkit (FTX) APP provides users with a robust and versatile toolkit. By seamlessly integrating features such as data retrieval, conversion, visualisation, analysis, forecasting, investment insights, and chatbot interaction, the application enhances the user experience, facilitating informed decision-making in the realm of global currencies. FTX empowers users to navigate the complexities of the financial landscape, enabling them to make intelligent and well-informed choices regarding currency transactions and investments.
+The Forex Toolkit (FTK) APP provides users with a robust and versatile toolkit. By seamlessly integrating features such as data retrieval, conversion, visualisation, analysis, forecasting, investment insights, and chatbot interaction, the application enhances the user experience, facilitating informed decision-making in the realm of global currencies. FTK empowers users to navigate the complexities of the financial landscape, enabling them to make intelligent and well-informed choices regarding currency transactions and investments.
 
